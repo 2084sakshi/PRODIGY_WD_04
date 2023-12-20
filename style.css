@@ -601,7 +601,7 @@ form input ::placeholder,form textarea ::placeholder{
         grid-template-columns: repeat(3, 1fr);
     }
     .skill-list li{
-        font-size: 1.9rem;
+        font-size: 1.5rem;
     }
     .projects{
         padding: 110px 10% 90px;
@@ -702,6 +702,9 @@ form input ::placeholder,form textarea ::placeholder{
     .skill-list{
         grid-template-columns: repeat(1, 1fr);
     }
+   .skill-list li {
+    font-size: 1.2rem;
+    }
     .projects{
         padding: 110px 10% 90px;
     }
@@ -713,6 +716,11 @@ form input ::placeholder,form textarea ::placeholder{
     }
     .contact-form form{
         width: 100%;
+    }
+  .btn-submit{
+        width: 30%;
+        margin-left: 30%;
+        padding: 10px 0;
     }
     .footer{
         padding: 20px 10%;
